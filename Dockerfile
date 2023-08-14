@@ -9,6 +9,6 @@ RUN pip install -r ./requirements.txt
 
 COPY server.py .
 
-EXPOSE 8080
+EXPOSE 80
 CMD [ "python", "./server.py" ]
 
