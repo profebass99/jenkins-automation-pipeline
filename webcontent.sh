@@ -26,7 +26,7 @@ echo "########################"
 
 # copy file contents
 echo "Copying file contents"
-echo "########################"
+echo "#########################"
 sudo cp -r ~/webcontents/orthoc/* /var/www/html/.
 
 # restart httpd service
