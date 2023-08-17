@@ -16,7 +16,7 @@ sudo mkdir -p ~/webcontents/
 
 # download web content from the web
 echo "Downloading web file"
-echo "#########################"
+echo "############################"
 sudo wget -O ~/webcontents/orthoc.zip https://github.com/technext/orthoc/releases/download/v.1.0.0/orthoc.zip
 
 # extract file contents
