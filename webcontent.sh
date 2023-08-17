@@ -39,3 +39,5 @@ sudo systemctl enable httpd
 echo "Cleaning up temporary files"
 echo "########################"
 sudo rm -rf ~/webcontents
+
+echo "We are done!!"
