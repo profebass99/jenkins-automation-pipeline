@@ -6,7 +6,7 @@ sudo yum update -y
 
 # install required packages
 echo "Installing required packages"
-echo "############################"
+echo "###############################"
 sudo yum install wget httpd unzip -y
 
 # create a directory
