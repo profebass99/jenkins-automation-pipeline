@@ -100,7 +100,7 @@ pipeline{
         }
         stage("Push docker image to ECR"){
             steps{
-                dockerImage.push($env.BUILD_NUMBER)
+                dockerImage.push("$BUILD_NUMBER")
                 dockerImage.push("latest")
             }
         }
