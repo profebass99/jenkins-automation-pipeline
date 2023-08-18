@@ -11,7 +11,7 @@ sudo yum install wget httpd unzip -y
 
 # create a directory
 echo "Creating directory"
-echo "################€€########"
+echo "#####################"
 sudo mkdir -p ~/webcontents/
 
 # download web content from the web
