@@ -9,8 +9,8 @@ unzip awscliv2.zip
 sudo ./aws/install
 
 # Set AWS credentials as environment variables
-export AWS_ACCESS_KEY_ID=AKIASPUWIYHNGCB2MUU7
-export AWS_SECRET_ACCESS_KEY=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
+export AWS_ACCESS_KEY_ID=********************
+export AWS_SECRET_ACCESS_KEY=*
 export AWS_DEFAULT_REGION=us-east-1
 
 
