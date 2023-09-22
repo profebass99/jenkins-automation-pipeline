@@ -2,15 +2,16 @@ def COLOR_MAP =[
     "SUCCESS": "good",
     "FAILURE": "danger"
 ]
+def gv
 
 pipeline{
     agent any
     environment{
         awsECRCreds = 'ecr:us-east-1:AWSCLIJenkinsCredential'
-        AwsEcrRegistry = '171040096730.dkr.ecr.us-east-1.amazonaws.com/devops'
+        AwsEcrRegistry = '***********.dkr.ecr.us-east-1.amazonaws.com/devops'
         cluster = 'sundaycluster'
         service = 'sundaytaskservice'
-        imageRegistryendpoint = 'https://171040096730.dkr.ecr.us-east-1.amazonaws.com'
+        imageRegistryendpoint = 'https://**************.dkr.ecr.us-east-1.amazonaws.com'
         awsregion = 'us-east-1'
     }
     tools{
